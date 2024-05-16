@@ -8,48 +8,67 @@
     <title>Mundo N&oacute;mada</title>
 </head>
 <body>
-  <div class="w-full h-screen bg-no-repeat bg-cover bg-fixed" style="background-image: url(/src/fondos/fondo1.jpg);">
 
-  <nav class="p-2 bg-[#FAFAFA] shadow md:flex md:items-center md:justify-between bg-gradient-to-r from-white to-green-500">
+
+
+  <video muted autoplay loop
+      class="absolute"> 
+      <source src="./video/fondoFinal.mp4">
+  </video>
+
+
+  <nav class="p-2 md:flex md:items-center md:justify-between z-10 relative">
     <div>
-      <span class="text-2xl font-[Poppins] bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-900 ">
+      <span class="text-2xl font-[Poppins] text-[#FAE01E] ">
            <a href="inicio.html" class="inline"><img class="h-12 inline" src="/src/iconos/vuelo-en-avion.png"></a>
             Mundo N&oacute;mada
       </span>
     </div>
     <ul class="md:flex md:items-center mx-5 ">
-      <li class="mx-4">
-        <a href="inicio.html" class="text-xl hover:text-[#0113AB] duration-500">Inicio</a>
+      <li class="mx-4" >
+          <button class="rounded-lg  bg-[#FAE01E] w-24 px-2 ">
+            <a href="inicio.html" class="text-sm">Inicio</a>
+          </button>
       </li>
       <li class="mx-4">
-        <a href="Destinos.html" class="text-xl hover:text-[#0113AB] duration-500">Destinos</a>
+           <button class="rounded-lg  bg-[#FAE01E] w-24 px-2">
+              <a href="Destinos.html" class="text-sm hover:text-[#0113AB] duration-500">Destinos</a>
+           </button>
       </li>
       <li class="mx-4">
-        <a href="Paquetes.html" class="text-xl hover:text-[#0113AB] duration-500">Paquetes de Viajes</a>
+           <button class="rounded-lg  bg-[#FAE01E] w-48 px-2">
+             <a href="Paquetes.html" class="text-sm hover:text-[#0113AB] duration-500">Paquetes de Viajes</a>
+           </button>
         </li>
       <li class="mx-4">
-        <a href="Contacto.html" class="text-xl hover:text-[#0113AB] duration-500">Contacto</a>
+          <button class="rounded-lg  bg-[#FAE01E] w-24 px-2">
+            <a href="Contacto.html" class="text-sm hover:text-[#0113AB] duration-500">Contacto</a>
+          </button>
       </li>
     </ul>
   </nav>
-
-  <div class=" bg-[#fafafa] rounded-lg mx-10 my-5" >
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quos a autem saepe 
-      vel, laudantium quaerat quod qui tempora, sunt perspiciatis eaque. Numquam a nostrum 
-      odio eum consectetur, suscipit repellat.</p>
+  <div class="my-12 text-center text-[20px] relative ">
+      <p class="text-[#fefefe] font-[Monserrat]">
+        En Mundo Nómada creemos que viajar es el camino hacia el autodescubrimiento y la renovación del alma.<br> 
+        Nos apasiona explorar el mundo y compartir experiencias que inspiran a otros a vivir sus propias aventuras.<br> 
+        Únete a nosotros y descubre los rincones más fascinantes del planeta, mientras conectas con culturas y paisajes<br>
+         que transforman tu perspectiva de la vida.
+      </p>
   </div>
 
+  <p class="text-[#CB2DD8] font-[Arial] text-[16px] ">Descubre nuestras ofertas Especiales</p>
 
-
-
+      <div class="my-24 h-52 flex items-start border-2 border-orange-500 relative">
+          <div class="flex">
+          
+          </div>
+      <div class="">
+          </div>
 
 </div>
 
 
 
 
-   <footer class="fixed bottom-0 w-full bg-[#FAFAFA] py-8 bg-gradient-to-r from-white  to-green-500">
-    <p class="text-center text-black font-[Poppins]">@Todos los derechos reservados</p>
-  </footer>
 </body>
-</html>|
+</html>
