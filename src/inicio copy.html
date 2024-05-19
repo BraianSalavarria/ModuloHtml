@@ -7,17 +7,17 @@
     <link rel="icon" type="image/png" href="./iconos/vuelo-en-avion.png">
     <title>Mundo N&oacute;mada</title>
 </head>
-<body>
+<body class="relative w-full h-full ">
 
 
 
   <video muted autoplay loop
-      class="absolute"> 
-      <source src="./video/fondoFinal.mp4">
+      class="absolute inset-0 w-full h-full object-cover z-[-1]"> 
+      <source src="./video/fondoFinal.mp4" type="video/mp4">
   </video>
 
 
-  <nav class="p-2 md:flex md:items-center md:justify-between z-10 relative">
+  <nav class="p-2 md:flex md:items-center md:justify-between z-10 ">
     <div>
       <span class="text-2xl font-[Poppins] text-[#FAE01E] ">
            <a href="inicio.html" class="inline"><img class="h-12 inline" src="/src/iconos/vuelo-en-avion.png"></a>
@@ -47,7 +47,7 @@
       </li>
     </ul>
   </nav>
-  <div class="my-12 text-center text-[20px] relative ">
+  <div class="my-12 text-center text-[20px] ">
       <p class="text-[#fefefe] font-[Monserrat]">
         En Mundo Nómada creemos que viajar es el camino hacia el autodescubrimiento y la renovación del alma.<br> 
         Nos apasiona explorar el mundo y compartir experiencias que inspiran a otros a vivir sus propias aventuras.<br> 
@@ -55,16 +55,108 @@
          que transforman tu perspectiva de la vida.
       </p>
   </div>
-<div class="my-24 h-52 flex items-center border-2 border-orange-500 relative">
 
-  <div class=" bg-white rounded-sm relative px-24 mx-36">
-  
+
+  <!--Ofertas especiales-->
+  <div class=" text-center text-[#FAE01E] font-[Monserrat] text-[36px] mb-10">
+          Aprovecha nuestras ofertas Especiales !!!
   </div>
+  <!--tarjetas de ofertas-->
+<div class="flex items-start justify-center my-10 mb-2">
 
+<!-- tarjeta -->
+    <div class="w-64 p-2 bg-white rounded-xl mx-4 hover: shadow-2xl hover:shadow-black">
+      <!--imagen-->
+      <img src="./fondos/fondo2.jpg" class="h-40 object-cover rounded-xl">
+      <!-- cabecera -->
+      <div class="p-2">
+          <H2 class="font-bold text-lg">R&iacute;o ¡Traslados Gratis! </H2>
+          <h5 class=" font-bold"> Junio - 7 noches </h5>
+          <!--descripcion-->
+          <p class="text-sm text-gray-500"> Vuelos + Hotel 7 noches  Asistencia al viajero + Traslados de Regalo</p>
+          <hr class=" my-2 mb-2">
+          <P class="text-sm text-gray-500 "> precio por persona desde <br></P>
+              <Strong> $ 744.700</Strong>
+             <p class=" text-gray-500 text-sm"> incluye impuestos, tasas y cargos</p>
+
+            <div class="my-2">
+              <a rore="button" href="#" class=" text-white bg-purple-600 px-2 py-1 rounded-md mx-10"> Más informacion</a>
+            </div>     
+      </div>
+    </div>
+
+    
+<!-- tarjeta -->
+<div class="w-60 p-2 bg-white rounded-xl mx-4 shadow-2xl hover:shadow-black">
+  <!--imagen-->
+  <img src="./fondos/fondo2.jpg" class="h-40 object-cover rounded-xl">
+  <!-- cabecera -->
+  <div class="p-2">
+      <H2 class="font-bold text-lg">CABECERA</H2>
+      <!--descripcion-->
+      <p class="text-sm text-gray-500">
+        Lorem ipsum dolor, sit amet consectetur 
+        adipisicing elit. Blanditiis sint nostrum
+         ex explicabo aliquid vitae eum earum dolore? 
+         Voluptas laborum illo earum id velit nesciunt 
+         cumque error vero alias modi?</p>
+        <div class="m-2">
+          <a rore="button" href="#" class=" text-white bg-purple-600 px-3 py-1 rounded-md"> Más informacion</a>
+        </div>     
+  </div>
 </div>
 
 
+<!-- tarjeta -->
+<div class="w-60 p-2 bg-white rounded-xl mx-4 shadow-2xl hover:shadow-black">
+  <!--imagen-->
+  <img src="./fondos/fondo2.jpg" class="h-40 object-cover rounded-xl">
+  <!-- cabecera -->
+  <div class="p-2">
+      <H2 class="font-bold text-lg">CABECERA</H2>
+      <!--descripcion-->
+      <p class="text-sm text-gray-500">
+        Lorem ipsum dolor, sit amet consectetur 
+        adipisicing elit. Blanditiis sint nostrum
+         ex explicabo aliquid vitae eum earum dolore? 
+         Voluptas laborum illo earum id velit nesciunt 
+         cumque error vero alias modi?</p>
+        <div class="m-2">
+          <a rore="button" href="#" class=" text-white bg-purple-600 px-3 py-1 rounded-md"> Más informacion</a>
+        </div>     
+  </div>
+</div>
 
 
+<!-- tarjeta -->
+<div class="w-60 p-2 bg-white rounded-xl mx-4 shadow-2xl hover:shadow-black">
+  <!--imagen-->
+  <img src="./fondos/fondo2.jpg" class="h-40 object-cover rounded-xl">
+  <!-- cabecera -->
+  <div class="p-2">
+      <H2 class="font-bold text-lg">CABECERA</H2>
+      <!--descripcion-->
+      <p class="text-sm text-gray-500">
+        Lorem ipsum dolor, sit amet consectetur 
+        adipisicing elit. Blanditiis sint nostrum
+         ex explicabo aliquid vitae eum earum dolore? 
+         Voluptas laborum illo earum id velit nesciunt 
+         cumque error vero alias modi?</p>
+        <div class="m-2">
+          <a rore="button" href="#" class=" text-white bg-purple-600 px-3 py-1 rounded-md"> Más informacion</a>
+        </div>     
+  </div>
+</div>
+</div>
+  <div class="flex justify-end">
+    <a rore="button" href="#" class=" text-white bg-purple-600 px-3 py-1 rounded-md mx-9 mb-96"> Ver m&aacute;s</a>
+  </div>
+
+  <footer class="bg-[#FAE01E] h-36 p-2">
+    <p class="text-2xl font-[Monserrat] my-2 text-purple-500">Mundo Nómada</p>
+    <hr class="bg-purple-900 border-2">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod eveniet amet beatae magnam inventore libero rerum error fugit distinctio quam ea, velit provident explicabo repudiandae exercitationem pariatur ut deleniti corrupti?</p>
+
+  </footer>
 </body>
 </html>
