@@ -582,14 +582,6 @@ video {
   z-index: -1;
 }
 
-.m-2 {
-  margin: 0.5rem;
-}
-
-.m-4 {
-  margin: 1rem;
-}
-
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -605,9 +597,14 @@ video {
   margin-right: 1.25rem;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.mx-9 {
+  margin-left: 2.25rem;
+  margin-right: 2.25rem;
 }
 
 .my-10 {
@@ -630,39 +627,12 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.mx-6 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
-.mx-9 {
-  margin-left: 2.25rem;
-  margin-right: 2.25rem;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
 }
 
 .mb-2 {
   margin-bottom: 0.5rem;
-}
-
-.mb-24 {
-  margin-bottom: 6rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mb-36 {
-  margin-bottom: 9rem;
 }
 
 .mb-96 {
@@ -681,8 +651,8 @@ video {
   height: 3rem;
 }
 
-.h-40 {
-  height: 10rem;
+.h-36 {
+  height: 9rem;
 }
 
 .h-full {
@@ -693,36 +663,12 @@ video {
   height: 100vh;
 }
 
-.h-64 {
-  height: 16rem;
-}
-
-.h-96 {
-  height: 24rem;
-}
-
-.h-60 {
-  height: 15rem;
-}
-
-.h-56 {
-  height: 14rem;
-}
-
-.h-36 {
-  height: 9rem;
-}
-
 .w-24 {
   width: 6rem;
 }
 
 .w-48 {
   width: 12rem;
-}
-
-.w-60 {
-  width: 15rem;
 }
 
 .w-64 {
@@ -733,12 +679,16 @@ video {
   width: 100%;
 }
 
-.items-start {
-  align-items: flex-start;
+.flex-1 {
+  flex: 1 1 0%;
 }
 
-.items-center {
-  align-items: center;
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .justify-end {
@@ -765,11 +715,6 @@ video {
   border-width: 2px;
 }
 
-.border-yellow-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(234 179 8 / var(--tw-border-opacity));
-}
-
 .bg-\[\#FAE01E\] {
   --tw-bg-opacity: 1;
   background-color: rgb(250 224 30 / var(--tw-bg-opacity));
@@ -790,9 +735,9 @@ video {
   background-color: rgb(147 51 234 / var(--tw-bg-opacity));
 }
 
-.bg-purple-700 {
+.bg-purple-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(126 34 206 / var(--tw-bg-opacity));
+  background-color: rgb(88 28 135 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -800,14 +745,14 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-purple-500 {
+.bg-\[\#f3b839\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
+  background-color: rgb(243 184 57 / var(--tw-bg-opacity));
 }
 
-.bg-purple-900 {
+.bg-\[\#EBF5F5\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(88 28 135 / var(--tw-bg-opacity));
+  background-color: rgb(235 245 245 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -880,10 +825,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -905,8 +846,8 @@ video {
   font-size: 20px;
 }
 
-.text-\[36px\] {
-  font-size: 36px;
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .text-lg {
@@ -948,6 +889,11 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
+.text-purple-500 {
+  --tw-text-opacity: 1;
+  color: rgb(168 85 247 / var(--tw-text-opacity));
+}
+
 .text-transparent {
   color: transparent;
 }
@@ -955,11 +901,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-purple-500 {
-  --tw-text-opacity: 1;
-  color: rgb(168 85 247 / var(--tw-text-opacity));
 }
 
 .shadow {
@@ -974,10 +915,15 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-xl {
-  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-black {
+  --tw-shadow-color: #000;
+  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .duration-500 {
